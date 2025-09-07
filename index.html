@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Portafolio, web, desarrollo" />
+  <title>Portafolio - Samuel Cano</title>
+
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <header id="header">
+    <div class="container">
+      <h1>Portafolio</h1>
+      <nav id="nav">
+        <a href="#section-about-me">Sobre Mí</a>
+        <a href="#section-skills">Habilidades</a>
+        <a href="#section-projects">Proyectos</a>
+        <a href="#section-blogs">Blog</a>
+        <a href="#section-references">Referencias</a>
+        <a href="#section-contacts">Contacto</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    
+    <!-- Sobre Mí -->
+    <section id="section-about-me" class="section-container">
+      <div class="container">
+        <h2>Sobre Mí</h2>
+        <div class="about-container">
+          <img src="img/foto-de-perfil.png" width="200" height="300" alt="Foto Samuel Cano">
+          <div class="about-description">
+            <h3>Samuel David Cano Guzmán</h3>
+            <p><strong>Estudiante de Ingeniería Mecánica</strong> apasionado por el desarrollo de software y la innovación, con experiencia en distintos proyectos enfocados en el desarrollo de aplicaciones webs, así como estudios de usabilidad y pruebas de usuario. Soy estudiante de programación y participo activamente en el desarrollo de soluciones innovadoras, con el objetivo de desarrollar aplicaciones funcionales, enfocándome en las necesidades principales de nuestros clientes, garantizando la solución y la mejor experiencia de usuario mediante pruebas detalladas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="section-skills" class="section-container">
+      <div class="container">
+        <h2>Habilidades</h2>
+        <div class="skills-container">
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">HTML</span>
+              <span class="skill-percentage">100%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-skill="100"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">CSS</span>
+              <span class="skill-percentage">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-skill="95"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-skill="80"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Node.js</span>
+              <span class="skill-percentage">0%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" data-skill="0"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->    
+    <section id="section-projects" class="section-container">
+      <div class="container">
+        <h2>Proyectos</h2>
+        <div id="container-projects">
+
+          <div class="card-project">
+            <div class="project-image">
+              <img src="img/Captura de pantalla Portafolio.png" alt="Captura de Portafolio Web">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/SamuelC-html/Portafolio-JC" target="_blank" class="btn-code">Ver Código</a>
+                  <a href="https://samuelc-html.github.io/Portafolio-JC/" target="_blank" class="btn-demo">Demo</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Portafolio Web</h3>
+              <p>Página web con HTML, CSS y JS, que muestra un portafolio virtual con mis proyectos más importantes.</p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-project">
+            <div class="project-image">
+              <img src="img/Captura de pantalla TicTacToe.png" alt="Captura de TicTacToe">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/SamuelC-html/Tic-Tac-Toe" target="_blank" class="btn-code">Ver Código</a>
+                  <a href="https://samuelc-html.github.io/Tic-Tac-Toe/" target="_blank" class="btn-demo">Demo</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Juego Tic Tac Toe</h3>
+              <p>Juego interactivo de tres en raya desarrollado con JavaScript vanilla, con lógica de juego completa y interfaz intuitiva.</p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="section-blogs" class="section-container">
+      <div class="container">
+        <div class="blog-header">
+          <h2>Blog</h2>
+          <button class="new-post-btn" type="button">Nuevo Post</button>
+        </div>
+        <div class="blog-list" id="blog-list">
+          <article class="blog-post">
+            <div class="post-date">15 Agosto 2025</div>
+            <h3>Mi experiencia aprendiendo desarrollo web</h3>
+            <p>Compartiendo mi viaje en el mundo del desarrollo web, desde los primeros pasos con HTML hasta proyectos más complejos...</p>
+            <a href="#" class="read-more">Leer más</a>
+          </article>
+          
+          <article class="blog-post">
+            <div class="post-date">03 Agosto 2025</div>
+            <h3>Mejores prácticas en CSS Grid</h3>
+            <p>Explorando las capacidades de CSS Grid y cómo puede revolucionar la forma en que creamos layouts responsivos...</p>
+            <a href="#" class="read-more">Leer más</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Referencias -->
+     <section id="section-references" class="section-container">
+      <div class="container">
+        <h2>Referencias</h2>
+        <div id="container-references">
+
+          <div class="card-references">
+            <div class="img-reference"><img src="img/compañero-jc.jpg" alt="Foto Compañero JC"></div>
+            <h3>"Trabajar con Samuel durante el curso fue una experiencia muy amena y enriquecedora"</h3>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="section-contacts" class="section-container">
+      <div class="container">
+        <h2>Contacto</h2>
+        <form id="contact-form" action="mailto:samuel.cano@ejemplo.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <label for="inpt-nombreUsuario">Nombre:</label>
+            <input type="text" name="nombreUsuario" id="inpt-nombreUsuario" required>
+            <span class="error-message" id="error-nombre"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="inpt-correoUsuario">Correo Electrónico:</label>
+            <input type="email" name="correoUsuario" id="inpt-correoUsuario" required>
+            <span class="error-message" id="error-correo"></span>
+          </div>
+          
+          <div class="form-group">
+            <label for="inpt-asunto">Asunto:</label>
+            <input type="text" name="asunto" id="inpt-asunto" required />
+            <span class="error-message" id="error-asunto"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="inpt-descripcion">Descripción:</label>
+            <textarea name="descripcion" id="inpt-descripcion" rows="5" required></textarea>
+            <span class="error-message" id="error-descripcion"></span>
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Samuel Cano</h3>
+          <p>Estudiante de Ingeniería Mecanica y apasionado en el desarrollo web.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
+            <li><a href="#section-about-me">Sobre Mí</a></li>
+            <li><a href="#section-skills">Habilidades</a></li>
+            <li><a href="#section-projects">Proyectos</a></li>
+            <li><a href="#section-contacts">Contacto</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Contacto</h4>
+          <p>Email: canoguzmansamueldavid@gmail.com</p>
+          <p>Teléfono: +57 320 980 2555</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Samuel Cano. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
